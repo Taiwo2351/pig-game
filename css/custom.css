@@ -4,31 +4,7 @@ body{
    box-sizing: border-box;
 }
 
-.jumbotron{
-    background-image: url(../images/dice.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: repeat;
-    color: white;
-    width: 100%;
-    min-height: 300px;
-    position: relative;
 
-}
-
-.jumbotron .container{
-    position: relative;
-    z-index: 9999999;
-}
-
-.jumbotron .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0, 0.5);
-}
 
 
 
@@ -52,7 +28,7 @@ body{
     
 }
 .active-player{
-    background-color: palegreen;
+    color: blue;
 }
 .winner{
   
